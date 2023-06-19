@@ -1,0 +1,309 @@
+Event ID,Event time,User name,Event name,Resource type,Resources,AWS access key,AWS region,Error code,Source IP address
+7038b845-9098-400c-a645-dc647dbebd79,"2020-06-12, 08:30:55 PM",CloudTrail,PutBucketPolicy,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""udp3log""}]",,ap-east-1,,1.36.60.155
+a0eebbac-4002-41f8-820d-e9a40d9c94af,"2020-06-12, 08:30:55 PM",CloudTrail,StartLogging,CloudTrail Trail,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""Udacity_Trail""}]",,ap-east-1,,1.36.60.155
+e1460b88-b466-40b6-8067-512157a30559,"2020-06-12, 08:30:55 PM",CloudTrail,PutEventSelectors,CloudTrail Trail,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""Udacity_Trail""},{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""arn:aws:cloudtrail:ap-east-1:095580927568:trail/Udacity_Trail""}]",,ap-east-1,,1.36.60.155
+e81e9f5f-c2b8-479c-91da-6a2fe0248284,"2020-06-12, 08:30:55 PM",CloudTrail,CreateTrail,CloudTrail Trail and 1 more,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""Udacity_Trail""},{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""arn:aws:cloudtrail:ap-east-1:095580927568:trail/Udacity_Trail""},{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""udp3log""}]",,ap-east-1,,1.36.60.155
+9402aeaa-f2cf-4100-ae50-f04244632dfe,"2020-06-12, 08:30:54 PM",CloudTrail,CreateBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""udp3log""}]",,ap-east-1,,1.36.60.155
+839d9f96-8a36-4224-bd0d-bbeb49bf3291,"2020-06-12, 08:30:38 PM",CloudTrail,CreateBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""cloudtraillog""}]",,ap-east-1,BucketAlreadyExists,1.36.60.155
+80970087-b164-46ee-a62d-5700961d3537,"2020-06-12, 08:26:51 PM",Accountant,ChangePassword,,,,us-east-1,,AWS Internal
+0bd04693-9408-4d93-b139-275d72704bbf,"2020-06-12, 08:26:05 PM",root,UpdateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,1.36.60.155
+c2218a07-0425-4e14-aee9-877f4f0e1720,"2020-06-12, 08:25:27 PM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,1.36.60.155
+47879e6f-fe30-476c-9675-750f8ccda6fe,"2020-06-12, 08:25:25 PM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,1.36.60.155
+e27073a4-9ec7-45ee-b091-ed0d9228c0a2,"2020-06-12, 08:25:25 PM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::095580927568:user/Accountant""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDARMQIRGZIFWTDMKP63""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,1.36.60.155
+23d24fcc-0131-4869-9c97-398c0914ed77,"2020-06-12, 08:24:13 PM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+45026839-883a-46b5-be58-a6849f218716,"2020-06-12, 08:21:57 PM",CloudTrail,ChangePassword,,,,us-east-1,,AWS Internal
+a62465cb-ea68-458b-acd8-78577bdbe25c,"2020-06-12, 08:20:54 PM",Administrator,UpdateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""}]",,us-east-1,,1.36.60.155
+fb4f1d19-d26f-422d-be8e-84e95a13a246,"2020-06-12, 08:20:07 PM",Administrator,ConsoleLogin,,,,us-east-1,,1.36.60.155
+3990e161-2dc7-4a2a-adb3-24f44709012a,"2020-06-12, 08:17:41 PM",Administrator,GenerateServiceLastAccessedDetails,,,,us-east-1,,1.36.60.155
+25e4fe3c-4e31-4dcd-b78e-cf72836bca83,"2020-06-12, 08:16:47 PM",Administrator,ConsoleLogin,,,,us-east-1,,1.36.60.155
+7ee68052-0065-4eaa-a252-784fef9b9d25,"2020-06-12, 08:16:44 PM",CloudTrail,ConsoleLogin,,,,us-east-1,,1.36.60.155
+bfef9bf4-435f-4199-a562-df348969763e,"2020-06-12, 08:14:33 PM",HIDDEN_DUE_TO_SECURITY_REASONS,ConsoleLogin,,,,us-east-1,,1.36.60.155
+95778e44-1393-4065-b108-acf44ba7638e,"2020-06-12, 08:14:18 PM",HIDDEN_DUE_TO_SECURITY_REASONS,ConsoleLogin,,,,us-east-1,,1.36.60.155
+ce9a0dd3-9d29-469d-9b2b-1d45b24c130d,"2020-06-12, 08:04:05 PM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+cb1db1c9-01e6-4ca5-a4b7-5fa4a8124977,"2020-06-12, 08:01:33 PM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""}]",,us-east-1,,1.36.60.155
+be321a79-2a53-4517-a7d0-6721c2a64e14,"2020-06-12, 08:01:32 PM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,1.36.60.155
+b496d728-7f35-4646-af2f-5f2e26422402,"2020-06-12, 08:01:31 PM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDARMQIRGZIPZECXQLAJ""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::095580927568:user/CloudTrail""}]",,us-east-1,,1.36.60.155
+6746d51e-a6e1-45c0-9a06-c921b8eed429,"2020-06-12, 07:57:15 PM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/job-function/Billing""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,1.36.60.155
+bc10dadf-43f4-4e89-886d-1a5a4f5d9feb,"2020-06-12, 07:57:15 PM",root,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::095580927568:group/Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPARMQIRGZIASLTIJJ4G""}]",,us-east-1,,1.36.60.155
+6228ef38-09b9-4734-94c7-775cb6530179,"2020-06-12, 07:56:42 PM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,1.36.60.155
+78fbcc81-9226-4fa5-bb2f-cfb94ac56a43,"2020-06-12, 07:56:41 PM",root,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::095580927568:group/CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPARMQIRGZIG5BDB2VCN""}]",,us-east-1,,1.36.60.155
+b821f04d-57c7-4ce4-b17c-e396cd753c64,"2020-06-12, 07:56:41 PM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailFullAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,1.36.60.155
+969694db-207d-4aad-85b2-b05348b72864,"2020-06-12, 07:52:57 PM",root,UpdateAccountPasswordPolicy,,,,us-east-1,,1.36.60.155
+87aed39a-5ad4-48ad-9cf3-e3b079f24f7d,"2020-06-12, 07:42:23 PM",root,DeleteInternetGateway,EC2 InternetGateway,"[{""resourceType"":""AWS::EC2::InternetGateway"",""resourceName"":""igw-0ddff6f36288ad071""}]",,ap-east-1,Client.InvalidInternetGatewayID.NotFound,cloudformation.amazonaws.com
+cad04930-fcf8-489d-b595-41bac59274e7,"2020-06-12, 07:42:23 PM",root,DeleteVpc,EC2 VPC,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""}]",,ap-east-1,Client.InvalidVpcID.NotFound,cloudformation.amazonaws.com
+a50a60f9-06fd-4570-aa93-d831526acffa,"2020-06-12, 07:42:07 PM",root,DeleteRouteTable,EC2 RouteTable,"[{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-004c2641d3ceb7148""}]",,ap-east-1,Client.InvalidRouteTableID.NotFound,cloudformation.amazonaws.com
+bc407462-a8d1-4289-b708-df3a7bb67830,"2020-06-12, 07:42:07 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-029a939715c4ca949""}]",,ap-east-1,Client.InvalidSubnetID.NotFound,cloudformation.amazonaws.com
+cb496100-406d-4998-ad71-bd057b0d0d92,"2020-06-12, 07:42:07 PM",root,DetachInternetGateway,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::InternetGateway"",""resourceName"":""igw-0ddff6f36288ad071""}]",,ap-east-1,Client.InvalidInternetGatewayID.NotFound,cloudformation.amazonaws.com
+e30861fb-2209-48f1-a81f-bcf15ae1bc02,"2020-06-12, 07:42:07 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06f5166215805b7e0""}]",,ap-east-1,Client.InvalidSubnetID.NotFound,cloudformation.amazonaws.com
+fd448fc8-505f-49be-b8bb-7331bff247ce,"2020-06-12, 07:41:53 PM",root,DeleteSecurityGroup,EC2 SecurityGroup,"[{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0de6c7ae14ed4d0f3""}]",,ap-east-1,Client.InvalidGroup.NotFound,cloudformation.amazonaws.com
+15f20900-8f81-4bb4-aae0-7b0b7db266ce,"2020-06-12, 07:41:51 PM",root,DisassociateRouteTable,EC2 SubnetRouteTableAssociation,"[{""resourceType"":""AWS::EC2::SubnetRouteTableAssociation"",""resourceName"":""rtbassoc-0be0629a17c0b4b32""}]",,ap-east-1,Client.InvalidAssociationID.NotFound,cloudformation.amazonaws.com
+2d5692b5-beee-451a-8cb7-5d116acf69de,"2020-06-12, 07:41:51 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,Client.InvalidSubnetID.NotFound,cloudformation.amazonaws.com
+54cade85-adcb-4ce9-a51b-6b5c4176450c,"2020-06-12, 07:41:51 PM",root,DeleteSecurityGroup,EC2 SecurityGroup,"[{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0c629494c9491246f""}]",,ap-east-1,Client.InvalidGroup.NotFound,cloudformation.amazonaws.com
+597620ad-29b3-4c4b-a46f-130a41dcea00,"2020-06-12, 07:41:51 PM",root,DisassociateRouteTable,EC2 SubnetRouteTableAssociation,"[{""resourceType"":""AWS::EC2::SubnetRouteTableAssociation"",""resourceName"":""rtbassoc-05128b3184e8cf519""}]",,ap-east-1,Client.InvalidAssociationID.NotFound,cloudformation.amazonaws.com
+5f515ebb-e692-483e-b985-45029c410f17,"2020-06-12, 07:41:51 PM",root,DeleteRouteTable,EC2 RouteTable,"[{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-0a5abfa1d598081e9""}]",,ap-east-1,Client.InvalidRouteTableID.NotFound,cloudformation.amazonaws.com
+6e35d761-5386-44cf-a857-f73498f10b18,"2020-06-12, 07:41:51 PM",root,DeleteRoute,EC2 RouteTable,"[{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-004c2641d3ceb7148""}]",,ap-east-1,Client.InvalidRoute.NotFound,cloudformation.amazonaws.com
+ec448f80-00fa-4775-a0e4-dea79d8f576a,"2020-06-12, 07:41:51 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-04cfff0fc6101360a""}]",,ap-east-1,Client.InvalidSubnetID.NotFound,cloudformation.amazonaws.com
+c5365ff5-04c8-448d-b5be-9c7487df11d0,"2020-06-12, 07:41:49 PM",root,DeleteStack,CloudFormation Stack,"[{""resourceType"":""AWS::CloudFormation::Stack"",""resourceName"":""arn:aws:cloudformation:ap-east-1:095580927568:stack/Udacity-Project1-Secondary/2bf1b5a0-a85c-11ea-9390-06d24d11cf92""}]",,ap-east-1,,1.36.60.155
+4c2cbcb6-4ea1-48b3-b549-1b84a61bffbc,"2020-06-12, 07:41:33 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-6e050a16""}]",,ap-east-1,,1.36.60.155
+195d2ec3-1ae2-4ca3-b7ee-40eba1c18a84,"2020-06-12, 07:41:32 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-4a9eb000""}]",,ap-east-1,,1.36.60.155
+5a64f075-8510-4ce7-a5bc-c0d5f636d200,"2020-06-12, 07:41:32 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-ff09e496""}]",,ap-east-1,,1.36.60.155
+96166326-34fa-4288-b3b4-1f90a9fdc79c,"2020-06-12, 07:41:02 PM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+aa7a8600-7d3f-402d-b238-3e9761f1ba1f,"2020-06-12, 06:35:42 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+86a7a843-1645-482a-9750-537223a74b62,"2020-06-12, 06:35:40 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+798b9aca-cf45-4269-aebb-fef4fdab7849,"2020-06-12, 06:35:39 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+acb86f79-07e2-44fa-a031-4d8215baa7b9,"2020-06-12, 06:35:39 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+624cee69-360f-4fa1-bf96-044ab2d0cd9b,"2020-06-12, 06:35:37 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+10431809-1bff-4898-9aeb-850176ccf8e2,"2020-06-12, 06:35:36 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+f5cf75ec-a4c6-41cd-ad61-fd883fb879bd,"2020-06-12, 06:35:36 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+293a2347-475c-43b8-bb97-de59df4781c5,"2020-06-12, 06:35:34 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ad971bdb-bb40-457b-b2f4-a42267463638,"2020-06-12, 06:35:34 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+bff366f9-347d-455b-aaed-81f51320244b,"2020-06-12, 06:35:34 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ff075307-1373-4776-ac00-7d4cfa671205,"2020-06-12, 06:35:34 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+1341d764-0ccd-4f86-ac1a-1766bc0429f3,"2020-06-12, 06:35:32 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+1baf615c-b037-45e7-89b7-1900f3e7aef7,"2020-06-12, 06:35:32 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+543c66fd-271c-4385-9e4d-82a841c4edeb,"2020-06-12, 06:35:32 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+790c120b-5253-48f9-8ff0-48463e8a3cf2,"2020-06-12, 06:35:32 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+920ba9d2-12cd-4ae4-a372-77d8f03b6952,"2020-06-12, 06:35:31 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+c1c5b1aa-af73-4def-81f2-b8e1b73c34fd,"2020-06-12, 06:35:30 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+3ea51ad1-fc12-454a-a22e-bd5f6aa25021,"2020-06-12, 06:35:29 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+22976b1d-4503-4d5a-8bd6-888911b030b0,"2020-06-12, 06:35:28 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+57d6df07-d497-4939-a689-0e4fd4038f00,"2020-06-12, 06:35:28 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+72e98342-67bc-4f3c-9309-19d03cdf218a,"2020-06-12, 06:35:28 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+8c2cd0eb-d76e-4171-bcea-9e6dcd25b855,"2020-06-12, 06:35:28 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+b5bec264-485e-4be8-893d-178b5d2b1023,"2020-06-12, 06:35:27 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+c58e689b-a657-4952-ac56-994da2c903df,"2020-06-12, 06:35:25 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+91eb4858-91d3-48b9-b7a5-a0d858547545,"2020-06-12, 06:35:17 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+42f09ff1-48f4-433b-9ded-20c60bdfc1ef,"2020-06-12, 06:35:16 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+8243dc43-cfd4-4112-b2f8-cfc9a16f03b7,"2020-06-12, 06:35:16 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+d3e05d50-02aa-409d-9709-244281d9b0da,"2020-06-12, 06:35:16 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+0a352a17-d1dd-47a8-afc2-a994f6f042ba,"2020-06-12, 06:35:15 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+55a5b4fc-462f-4f31-b07a-827e2a5f3bba,"2020-06-12, 06:35:14 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+872e29be-9e04-4371-900a-ff29a301668e,"2020-06-12, 06:35:14 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+24b12e09-1496-4888-9c6c-bea7100f913b,"2020-06-12, 06:35:12 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+05e2d666-70d2-4938-a0b9-38d69ee72373,"2020-06-12, 06:35:11 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+943523e9-5510-435a-9adc-8ef22c602ab6,"2020-06-12, 06:35:11 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+cde6b26e-671b-4f40-957f-5ba0d2719e34,"2020-06-12, 06:35:09 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+07377326-9660-4d76-bf36-4b03a573ff2e,"2020-06-12, 06:35:08 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+c1b39d5f-0bf0-44b1-a1ad-7ed897af0efd,"2020-06-12, 06:35:08 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+21de297d-04ab-45c6-9b8b-c5abd84a1392,"2020-06-12, 06:35:07 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+4cd6f509-dc17-46f5-bf67-fbc42026c378,"2020-06-12, 06:35:07 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ed9932e3-9144-403a-8826-e6f58e80fc3c,"2020-06-12, 06:35:07 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+92975473-4e4b-4d78-964f-0f45c951dbb7,"2020-06-12, 06:35:06 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+1fe9b836-970d-4a0c-828f-4dbbb0c8f342,"2020-06-12, 06:35:04 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+2efa1eae-8b95-49fe-b78a-b3cd93d5334c,"2020-06-12, 06:35:04 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+8e6dac46-bb39-4df9-850a-58d0c50f3060,"2020-06-12, 06:35:03 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+be209fd5-c7c3-4e9e-ae09-78a36d4503b9,"2020-06-12, 06:35:01 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+4a30624b-75ff-4d5b-9995-a95d38f2f9ca,"2020-06-12, 05:23:37 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+026f2791-1210-4288-9e6e-b529aad02730,"2020-06-12, 05:23:36 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+6ab0c2f4-e341-4201-9e02-b9edaee18370,"2020-06-12, 05:23:36 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+96338439-eb7c-46e3-910c-9ef07fc17c4e,"2020-06-12, 05:23:36 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+2575b9ea-bee3-4357-8c4d-544db5f517f8,"2020-06-12, 05:23:34 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+550b968e-96ae-4a60-b3b4-e34b9462181d,"2020-06-12, 05:23:34 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+67631859-3774-4196-9314-4e89a7ccef15,"2020-06-12, 05:23:34 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ac37b594-4c44-4fb4-b08b-c9e738897a38,"2020-06-12, 05:23:34 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+c0b2f8ab-fbd0-43ac-a625-615c4eb4dcb4,"2020-06-12, 05:23:33 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+2188536b-f915-42da-b2e9-72e6ef3d51f1,"2020-06-12, 05:23:32 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+54c56e35-f8d6-4671-9af4-0635f436e4aa,"2020-06-12, 05:23:32 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+9dd66ef6-cfb8-484e-94c2-7be65a5f9f14,"2020-06-12, 05:23:32 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+0808379c-94c8-4842-be78-cd59e072bffd,"2020-06-12, 05:23:31 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+74e8167c-8ceb-4871-9f1f-975c084d2cf4,"2020-06-12, 05:23:31 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+f24c0676-7b17-4b70-b47b-2b1209178675,"2020-06-12, 05:23:31 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+4d501f81-9533-4a47-9b5d-3b8adbe1a800,"2020-06-12, 05:23:29 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+7e675b3c-7a70-4195-b955-14dc932ff03c,"2020-06-12, 05:23:29 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+a7d465fc-89e3-46e9-b828-a08878c2b48e,"2020-06-12, 05:23:29 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+bd3865aa-0b50-4562-a132-5db3494e230f,"2020-06-12, 05:23:29 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+a7366c6c-45ab-4f91-b9d7-bfbf548478ca,"2020-06-12, 05:23:27 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+fd040302-7ab9-4db0-b2e2-779c9ac2e800,"2020-06-12, 05:23:27 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+f8fc267f-df9c-4f15-8589-7d85e6a4708e,"2020-06-12, 05:23:26 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+722abfc1-a75c-4c44-87fb-2b81033deed4,"2020-06-12, 05:23:25 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+7285b2b6-7855-42f4-a04d-adaab908c737,"2020-06-12, 05:23:25 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+d82ee9b3-7995-443e-8eb1-fa27230e1a65,"2020-06-12, 05:23:25 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+1a590e63-fa4e-4ccf-98f2-29ad8fd71f0d,"2020-06-12, 05:23:23 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+20a0a7a8-98ac-4ffb-8fba-2bea41507008,"2020-06-12, 05:23:23 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+72540bfe-8879-49ab-bf81-01e2373be6ed,"2020-06-12, 05:23:23 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+aebf1701-705e-41d3-a4e6-b28f46fa4648,"2020-06-12, 05:23:23 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+1eeef71e-7f3a-4432-a3a8-f77efa881839,"2020-06-12, 05:23:21 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+54b66b09-78e8-4a46-b902-14047c333ae0,"2020-06-12, 05:23:21 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+bcfce9e5-9660-4315-9f2c-50d164612a6f,"2020-06-12, 05:23:21 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+68c88d61-7626-4daf-8bee-8c0e14702af9,"2020-06-12, 05:23:20 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ac787c0c-3640-49e5-a8e5-57c488cc7959,"2020-06-12, 05:23:20 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+452fd570-be95-4a37-8ea0-15598d40234d,"2020-06-12, 05:23:19 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+682508ce-47e8-413c-9455-98666395f6a6,"2020-06-12, 05:23:19 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+6ee26bcf-66c7-4872-934b-d7c3d1987e84,"2020-06-12, 05:23:19 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+c0d591ec-2e59-43f6-a828-0c83abac1583,"2020-06-12, 05:23:18 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+59c3151a-eb96-4ecf-bf9f-eae8c574c30d,"2020-06-12, 05:23:17 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+5e1943c7-c2c9-4ea9-a0ca-09d3874bc065,"2020-06-12, 05:23:17 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+b050b6f4-3a42-4061-830a-3a0c2e38606d,"2020-06-12, 05:23:17 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+6784ba72-7a76-4274-8d2a-77ec8c926680,"2020-06-12, 05:23:16 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+670ae575-72cd-40e8-bb86-bb87f7f4b1e3,"2020-06-12, 05:23:15 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+cddb894e-036a-4b9e-a2d8-dbf8d20f646f,"2020-06-12, 05:23:15 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+de90144a-98e9-4563-b633-8b4e7f9a378a,"2020-06-12, 05:23:15 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+64140459-d0ae-439b-8340-9dbec25017ff,"2020-06-12, 05:23:14 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+af20c011-c375-490a-8398-24526a7268b5,"2020-06-12, 05:23:14 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+e4104547-75c7-4cb4-9eb5-fa381acf1113,"2020-06-12, 05:23:14 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+220edc86-069b-4924-934b-f98356f1cc6e,"2020-06-12, 05:23:13 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+30525b7f-77f8-4df5-8ae1-768d41ded5c6,"2020-06-12, 05:23:12 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+37bc8a57-aa4c-424f-8072-ed767ede4e29,"2020-06-12, 05:23:12 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+394f6ac8-7637-4c55-b8e6-876a9d56c402,"2020-06-12, 05:23:12 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ed3c4464-abc1-4331-9d68-082e9f4a27f5,"2020-06-12, 05:23:12 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+4cb23fd1-f182-4275-8936-12b5f199b14b,"2020-06-12, 05:23:10 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+60fb208b-d254-4c7e-895c-8309a8e15c04,"2020-06-12, 05:23:10 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+6fd34888-9031-401c-980a-cd778bd862b0,"2020-06-12, 05:23:10 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+d9e13c86-297c-4ef0-b5d9-3bff60492fa3,"2020-06-12, 05:23:10 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+6e9bcf45-3486-4d2c-8e60-56972aa263c1,"2020-06-12, 05:23:02 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+75e74af5-ddaa-4962-8abe-c9a70def5f90,"2020-06-12, 05:23:02 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+7a19d2bb-011c-424b-a786-f183d4e1581e,"2020-06-12, 05:23:02 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+af623f8a-bd31-4c64-b054-2623e1ab822d,"2020-06-12, 05:23:01 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+6895ccbc-6e4e-460a-95d3-dbcae6377b78,"2020-06-12, 05:23:00 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+6e7728b2-a46b-408f-96ac-1b654f285889,"2020-06-12, 05:23:00 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+c6f161d1-a1cb-4f88-86d8-f827c7bd3e23,"2020-06-12, 05:23:00 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+e4c788f2-b4d8-4421-8907-8922019b8e61,"2020-06-12, 05:23:00 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+30822586-55aa-4568-a69c-a471e810f483,"2020-06-12, 05:22:58 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+f85f4cbb-d00b-4588-a6cf-c40fe689d747,"2020-06-12, 05:22:58 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+fc093c75-30ca-4138-8891-999854ec1ece,"2020-06-12, 05:22:58 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+3d74c5bf-97d2-49f7-9a9f-e0f6a213ca20,"2020-06-12, 05:22:57 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+f9df3994-ec17-4985-a895-c051f2867541,"2020-06-12, 05:22:57 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+268887d0-22de-4720-a3cf-ad86f6b2be4b,"2020-06-12, 05:22:56 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+29e2dfbc-b661-4cf3-a7e6-d40f8069b4d0,"2020-06-12, 05:22:56 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ea280ebe-a4bd-475f-8e0a-c7600d2eb1f9,"2020-06-12, 05:22:56 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+98a32a0e-ccea-4c5f-bbff-242c36904510,"2020-06-12, 05:22:55 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+c944a0c0-85fb-4f17-84f6-3aa079982d1a,"2020-06-12, 05:22:54 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+52555b06-5c32-4fcf-9c4b-c6728b950bec,"2020-06-12, 05:22:53 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+66addcf7-8094-486f-84f7-e78c8016be89,"2020-06-12, 05:22:53 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+a8f6d7e9-a5c0-464f-b382-ca94773ef50a,"2020-06-12, 05:22:53 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ba40739b-a8a8-42f5-92e0-e31314deb22d,"2020-06-12, 05:22:52 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+0855f38e-9a79-41fc-9376-e3db12fc46b2,"2020-06-12, 05:22:51 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+985ffdff-2369-42d1-8840-ac3b532ebd25,"2020-06-12, 05:22:50 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+55eb82a8-bc21-40ba-ab74-d58be5939f94,"2020-06-12, 05:22:49 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+6ffdfc97-e8bb-40e9-b09a-891fa818ffab,"2020-06-12, 05:22:49 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ce4c68e0-cb11-4173-8081-9d0c4c167604,"2020-06-12, 05:22:49 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+2138a99c-9c53-4242-89b8-7b4134a9f3b0,"2020-06-12, 05:22:48 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+45459fa0-85ad-4978-844d-8976e6ce4788,"2020-06-12, 05:22:48 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+4b812532-f066-4c71-a730-434409695423,"2020-06-12, 05:22:48 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+e42aa5e8-69ed-48df-8005-0daa70c815b4,"2020-06-12, 05:22:48 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+52167a66-041c-4c2b-b50c-a7fde8e439a6,"2020-06-12, 05:22:46 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+99fec2dc-fff9-4d8c-9cc6-35e29357dc75,"2020-06-12, 05:22:46 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+9f50921e-0b83-491c-9630-6b86289bfd46,"2020-06-12, 05:22:46 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+fe8c4f79-cdcc-4149-9d32-d9722ac6e2c1,"2020-06-12, 05:22:46 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+23e0dfd3-f6e0-41c8-a79c-752d4c701e3e,"2020-06-12, 05:22:44 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+42386cc5-d33d-426a-9d70-f41aca44e63a,"2020-06-12, 05:22:44 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+45d9f4b4-51f3-44b8-bc4a-b18fcf5e5cf8,"2020-06-12, 05:22:44 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+a535e340-20c6-43e0-8097-eb6a624ef445,"2020-06-12, 05:22:44 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+5ed19408-bf70-4bb3-bdb1-2f391bab7498,"2020-06-12, 05:22:43 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+83c24e8d-a936-4006-a671-0206771b37e7,"2020-06-12, 05:22:43 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+c694ab9f-3f83-4f6f-b1b7-36aac66ff775,"2020-06-12, 05:22:42 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+ecc2d5a3-cb75-47aa-bc4b-901a613435eb,"2020-06-12, 05:22:42 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+1eccf24b-50f9-4ac0-bea1-2d75ce3c71f1,"2020-06-12, 05:22:41 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+e51a9c6e-50bd-4ed6-9455-551a304a38ea,"2020-06-12, 05:22:41 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+9ba38b55-d52f-45a4-b93d-0804fd522ebf,"2020-06-12, 05:22:40 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+d20c7884-cad0-4238-a539-db8e4facd02a,"2020-06-12, 05:22:40 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+074bba94-7928-4418-95fd-b79fe138199c,"2020-06-12, 05:22:39 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+0df6cc20-442b-4c5e-8161-0364a0f0f1da,"2020-06-12, 05:22:39 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+9ccf7ec0-6694-4173-bc5e-786a85f575c8,"2020-06-12, 05:22:39 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+55581a66-67c1-47f5-afa2-679786bed5f2,"2020-06-12, 05:22:38 PM",root,CreateServiceLinkedRole,,,,us-east-1,InternalFailure,autoscaling.amazonaws.com
+637f5094-0c0e-4718-becb-c086dced10fa,"2020-06-12, 07:40:39 AM",root,AttachUserPolicy,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""},{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/job-function/Billing""}]",,us-east-1,,1.36.60.155
+1b324094-9d30-435e-8226-8f3db75c7c7f,"2020-06-12, 07:01:27 AM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+19486913-4282-4b8b-b87b-1c547f550143,"2020-06-11, 09:19:00 PM",Administrator,DeleteBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-s3project""}]",,ap-east-1,,1.36.60.155
+0e8b4416-29fe-4036-ba21-c5e8d81780ae,"2020-06-11, 09:18:59 PM",Administrator,DeleteBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-s3project""}]",,ap-east-1,BucketNotEmpty,1.36.60.155
+2fb4acfa-2e60-4e8e-9c68-2384ae015c20,"2020-06-11, 09:18:35 PM",Administrator,DeleteBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-project1""}]",,ap-east-1,,1.36.60.155
+96b9622f-0efe-43c5-839a-778dbc9d4c67,"2020-06-11, 09:18:34 PM",Administrator,DeleteBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-project1""}]",,ap-east-1,BucketNotEmpty,1.36.60.155
+98ebbdde-027d-4402-a6bd-198a591938a2,"2020-06-11, 09:17:50 PM",Administrator,ConsoleLogin,,,,ap-east-1,,1.36.60.155
+5287f02d-5d6c-4ec2-8b3b-fbde8eefcb58,"2020-06-11, 11:48:49 AM",Administrator,PutBucketWebsite,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-s3project""}]",,ap-east-1,,1.36.60.155
+58cfccd1-e066-4b43-aa8c-33808063b869,"2020-06-11, 11:47:45 AM",Administrator,PutBucketVersioning,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-s3project""}]",,ap-east-1,,1.36.60.155
+4285312b-7bec-4954-9813-5d5536e1f79d,"2020-06-11, 11:47:44 AM",Administrator,CreateBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-s3project""}]",,ap-east-1,,1.36.60.155
+d93f60c1-ff29-498e-bf24-110d997b70bb,"2020-06-11, 11:17:19 AM",Administrator,PutBucketWebsite,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-project1""}]",,ap-east-1,,1.36.60.155
+9b7a1a16-dcc3-4520-a2cf-ad9d0677aeee,"2020-06-11, 11:16:17 AM",Administrator,PutBucketVersioning,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-project1""}]",,ap-east-1,,1.36.60.155
+d0cd64bf-5b67-4e9b-abfe-bc55a919d08a,"2020-06-11, 11:16:15 AM",Administrator,CreateBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""ud-project1""}]",,ap-east-1,,1.36.60.155
+fde8af14-6d1f-4774-88eb-518c02f353b1,"2020-06-11, 07:30:41 AM",Administrator,CreateAccessKey,IAM AccessKey and 1 more,"[{""resourceType"":""AWS::IAM::AccessKey"",""resourceName"":""AKIARMQIRGZIA7TOFL6F""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""}]",,us-east-1,,1.36.60.155
+ed387c30-8106-40ab-97fa-2e79655139c6,"2020-06-10, 12:14:23 PM",root,ConsoleLogin,,,,us-east-1,,124.217.188.122
+d944854c-0e89-4905-9949-b32ef3ff16c6,"2020-06-10, 10:49:59 AM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""}]",,us-east-1,,1.36.60.155
+115fc7a1-6953-4560-af4f-d329adf43291,"2020-06-10, 10:49:58 AM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Administrators""}]",,us-east-1,,1.36.60.155
+d4cb3fca-e822-45d0-bdce-96253674b9ec,"2020-06-10, 10:49:57 AM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::095580927568:user/Administrator""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDARMQIRGZIGMY3PFMB7""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""}]",,us-east-1,,1.36.60.155
+2b067dd6-6673-47c9-9ade-46349734ca1a,"2020-06-10, 10:48:38 AM",root,DeleteUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""}]",,us-east-1,,1.36.60.155
+4a0000a4-8f57-4494-a3b0-0f7476a37cba,"2020-06-10, 10:48:38 AM",root,RemoveUserFromGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Administrators""}]",,us-east-1,,1.36.60.155
+f563501c-7831-4cf4-9466-202d1ca06bcb,"2020-06-10, 10:48:38 AM",root,DeleteLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""}]",,us-east-1,,1.36.60.155
+d7e13aa4-9bfe-4874-adac-fa529a5dde7b,"2020-06-10, 10:47:25 AM",root,GenerateServiceLastAccessedDetails,,,,us-east-1,,1.36.60.155
+297cfd7a-bcfc-4d8f-83cd-64e2c206d937,"2020-06-10, 10:46:07 AM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+8d36d04e-da02-4872-b943-86ddb25e85b8,"2020-06-10, 10:44:02 AM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""}]",,us-east-1,,1.36.60.155
+167872ed-47a5-41bf-a5a1-8ba467d9019e,"2020-06-10, 10:44:00 AM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Administrators""}]",,us-east-1,,1.36.60.155
+c81810c8-99cd-4656-afb1-af38c0d365f6,"2020-06-10, 10:43:58 AM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::095580927568:user/Administrator""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""Administrator""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDARMQIRGZIOPIQ4UEPM""}]",,us-east-1,,1.36.60.155
+4c141d87-23a4-4b28-b0f4-c67ef00d5911,"2020-06-10, 10:43:31 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AdministratorAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Administrators""}]",,us-east-1,,1.36.60.155
+efd781b9-c723-43b6-8b91-3b055ff54ea4,"2020-06-10, 10:43:29 AM",root,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Administrators""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPARMQIRGZIBL734TO3Y""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::095580927568:group/Administrators""}]",,us-east-1,,1.36.60.155
+279f2a33-0a79-48c3-84b8-b68145744f60,"2020-06-10, 08:39:47 AM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+ab8636ee-e074-41c5-bc0c-db03ba0da489,"2020-06-09, 08:34:29 PM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+9e49e2c2-5250-455a-a1d6-7004ce3ee4aa,"2020-06-09, 08:33:14 AM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+59e404a5-9e99-4f43-b116-8996aea01474,"2020-06-08, 01:01:28 PM",root,ConsoleLogin,,,,us-east-1,,101.78.202.34
+1f7777ed-2bf7-4e7f-9c03-98df7b3e3f35,"2020-06-07, 09:18:28 PM",root,DeleteDBSubnetGroup,RDS DBSubnetGroup,"[{""resourceType"":""AWS::RDS::DBSubnetGroup"",""resourceName"":""rds-secondary""}]",,ap-east-1,DBSubnetGroupNotFoundFault,175.45.5.194
+b95e7657-b562-445b-9f3c-690b76e05f9c,"2020-06-07, 07:42:39 PM",root,DeleteDBSubnetGroup,RDS DBSubnetGroup,"[{""resourceType"":""AWS::RDS::DBSubnetGroup"",""resourceName"":""rds-secondary""}]",,ap-east-1,,175.45.5.226
+3be6f665-ba53-46c0-a0fc-f473c0fb32d9,"2020-06-07, 07:42:13 PM",root,DeleteVpc,EC2 VPC,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""}]",,ap-east-1,,175.45.5.226
+468fea46-07f9-45e5-ac75-39aa881dcc82,"2020-06-07, 07:42:13 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-029a939715c4ca949""}]",,ap-east-1,,175.45.5.226
+73e7cf7e-88fd-4db3-8ac4-6c6a26d3aaa1,"2020-06-07, 07:42:13 PM",root,DeleteRouteTable,EC2 RouteTable,"[{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-0a5abfa1d598081e9""}]",,ap-east-1,,175.45.5.226
+edec6fcf-7e97-4602-8946-a20f89216879,"2020-06-07, 07:42:13 PM",root,DeleteRouteTable,EC2 RouteTable,"[{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-004c2641d3ceb7148""}]",,ap-east-1,,175.45.5.226
+01898263-790d-4530-b07a-ebeb763881cd,"2020-06-07, 07:42:12 PM",root,DeleteInternetGateway,EC2 InternetGateway,"[{""resourceType"":""AWS::EC2::InternetGateway"",""resourceName"":""igw-0ddff6f36288ad071""}]",,ap-east-1,,175.45.5.226
+7dbdf7a2-4c05-4be2-a7cb-fe99c1ee592c,"2020-06-07, 07:42:12 PM",root,DetachInternetGateway,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::InternetGateway"",""resourceName"":""igw-0ddff6f36288ad071""}]",,ap-east-1,,175.45.5.226
+8682917c-7d3f-4154-9c57-90a97f3fce25,"2020-06-07, 07:42:12 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,,175.45.5.226
+a30523cc-f8f7-4977-8101-109f99ea3ceb,"2020-06-07, 07:42:12 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-04cfff0fc6101360a""}]",,ap-east-1,,175.45.5.226
+ca0bbbd5-f676-4119-82ad-a8bf3a75a8b7,"2020-06-07, 07:42:12 PM",root,DeleteSubnet,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06f5166215805b7e0""}]",,ap-east-1,,175.45.5.226
+332b2bea-4f35-4aba-9e1d-356f32f5b850,"2020-06-07, 07:42:11 PM",root,DeleteSecurityGroup,EC2 SecurityGroup,"[{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0de6c7ae14ed4d0f3""}]",,ap-east-1,,175.45.5.226
+59d6765d-0019-40c4-ba13-23d8b119ac82,"2020-06-07, 07:42:11 PM",root,DeleteSecurityGroup,EC2 SecurityGroup,"[{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0c629494c9491246f""}]",,ap-east-1,,175.45.5.226
+a1907dc6-c6a7-42ce-a270-8011871b2753,"2020-06-07, 07:42:11 PM",root,RevokeSecurityGroupIngress,EC2 SecurityGroup,"[{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0c31855e197ca7f9d""}]",,ap-east-1,,175.45.5.226
+d63e0fd8-4777-45e5-b929-c73cc4d00269,"2020-06-07, 07:42:11 PM",root,RevokeSecurityGroupIngress,EC2 SecurityGroup,"[{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0de6c7ae14ed4d0f3""},{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0c629494c9491246f""}]",,ap-east-1,,175.45.5.226
+322653c9-3e41-44e6-b082-db294a2de99e,"2020-06-07, 06:18:07 PM",root,ConsoleLogin,,,,us-east-1,,124.217.188.11
+0b9c9739-17c7-4fc1-b6e9-1f0024b83cb3,"2020-06-07, 10:05:12 AM",root,AttachRolePolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/service-role/AmazonRDSEnhancedMonitoringRole""},{""resourceType"":""AWS::IAM::Role"",""resourceName"":""rds-monitoring-role""}]",,us-east-1,,1.36.60.155
+3c1c53ef-bc3b-4cf7-b622-941204a009c4,"2020-06-07, 10:05:12 AM",root,CreateRole,IAM Role,"[{""resourceType"":""AWS::IAM::Role"",""resourceName"":""arn:aws:iam::095580927568:role/rds-monitoring-role""},{""resourceType"":""AWS::IAM::Role"",""resourceName"":""AROARMQIRGZIDI6WGZMV2""},{""resourceType"":""AWS::IAM::Role"",""resourceName"":""rds-monitoring-role""}]",,us-east-1,,1.36.60.155
+debe6e9d-2ca5-4d83-b8f6-eb4c666b7622,"2020-06-07, 09:59:42 AM",root,CreateServiceLinkedRole,,,,us-east-1,,rds.amazonaws.com
+a3d9032d-b8aa-48e1-b21c-68797b62e7c3,"2020-06-07, 09:25:05 AM",root,CreateDBSubnetGroup,EC2 VPC and 2 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::RDS::DBSubnetGroup"",""resourceName"":""RDS-Secondary""},{""resourceType"":""AWS::RDS::DBSubnetGroup"",""resourceName"":""rds-secondary""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06ca4ae291da2b47b""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-04cfff0fc6101360a""}]",,ap-east-1,,1.36.60.155
+92aa1839-5733-412f-ad2c-123f7c4b9b3b,"2020-06-07, 09:24:29 AM",root,CreateDBSubnetGroup,RDS DBSubnetGroup and 1 more,"[{""resourceType"":""AWS::RDS::DBSubnetGroup"",""resourceName"":""RDS-Secondary""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,DBSubnetGroupDoesNotCoverEnoughAZs,1.36.60.155
+cc517c0e-ae14-4ca5-889e-646d27216f35,"2020-06-07, 09:24:27 AM",root,CreateDBSubnetGroup,RDS DBSubnetGroup and 1 more,"[{""resourceType"":""AWS::RDS::DBSubnetGroup"",""resourceName"":""RDS-Secondary""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,DBSubnetGroupDoesNotCoverEnoughAZs,1.36.60.155
+eb66ff7f-32ce-4ac0-bfbe-c4a071afee5b,"2020-06-07, 09:24:25 AM",root,CreateDBSubnetGroup,RDS DBSubnetGroup and 1 more,"[{""resourceType"":""AWS::RDS::DBSubnetGroup"",""resourceName"":""RDS-Secondary""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,DBSubnetGroupDoesNotCoverEnoughAZs,1.36.60.155
+fc163803-0e2e-4d3c-88a1-5c552fba4caa,"2020-06-07, 09:24:04 AM",root,CreateDBSubnetGroup,RDS DBSubnetGroup and 1 more,"[{""resourceType"":""AWS::RDS::DBSubnetGroup"",""resourceName"":""RDS-Secondary""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,DBSubnetGroupDoesNotCoverEnoughAZs,1.36.60.155
+4381677b-863c-4be9-834c-d962867562af,"2020-06-07, 09:23:50 AM",root,CreateDBSubnetGroup,RDS DBSubnetGroup and 1 more,"[{""resourceType"":""AWS::RDS::DBSubnetGroup"",""resourceName"":""RDS-Secondary""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,InvalidParameterValueException,1.36.60.155
+0664e84f-31c9-443b-887e-a25314137596,"2020-06-07, 09:14:40 AM",root,AssociateRouteTable,EC2 RouteTable and 2 more,"[{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-004c2641d3ceb7148""},{""resourceType"":""AWS::EC2::SubnetRouteTableAssociation"",""resourceName"":""rtbassoc-05128b3184e8cf519""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-029a939715c4ca949""}]",,ap-east-1,,cloudformation.amazonaws.com
+259a441a-2fc8-4d6f-84e5-913fa2c9dcc8,"2020-06-07, 09:14:40 AM",root,AssociateRouteTable,EC2 RouteTable and 2 more,"[{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-004c2641d3ceb7148""},{""resourceType"":""AWS::EC2::SubnetRouteTableAssociation"",""resourceName"":""rtbassoc-0be0629a17c0b4b32""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06f5166215805b7e0""}]",,ap-east-1,,cloudformation.amazonaws.com
+c586df11-7dc9-4131-ae7e-1013a4191aba,"2020-06-07, 09:14:39 AM",root,CreateRoute,EC2 RouteTable and 1 more,"[{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-004c2641d3ceb7148""},{""resourceType"":null,""resourceName"":""igw-0ddff6f36288ad071""}]",,ap-east-1,,cloudformation.amazonaws.com
+119fc622-ef71-4caf-ba8e-88dc9d375233,"2020-06-07, 09:14:38 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,,cloudformation.amazonaws.com
+2744479f-5cec-4eb3-945d-49863d5054f4,"2020-06-07, 09:14:38 AM",root,ModifySubnetAttribute,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06f5166215805b7e0""}]",,ap-east-1,,cloudformation.amazonaws.com
+2cdc2585-ffe6-4c72-9933-10713e8348bc,"2020-06-07, 09:14:38 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""subnet-029a939715c4ca949""}]",,ap-east-1,,cloudformation.amazonaws.com
+93a1aeea-3caf-453b-acbc-5e43581e785e,"2020-06-07, 09:14:38 AM",root,ModifySubnetAttribute,EC2 Subnet,"[{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-029a939715c4ca949""}]",,ap-east-1,,cloudformation.amazonaws.com
+ae3e16ef-6df4-4838-92f5-42dcacbf677d,"2020-06-07, 09:14:38 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""subnet-04cfff0fc6101360a""}]",,ap-east-1,,cloudformation.amazonaws.com
+afa0685a-49ef-4460-b5cc-c88137fef266,"2020-06-07, 09:14:38 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""subnet-04cfff0fc6101360a""}]",,ap-east-1,,cloudformation.amazonaws.com
+b712ab08-1e90-4f09-a22e-00f267fef382,"2020-06-07, 09:14:38 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,,cloudformation.amazonaws.com
+b772b618-d844-4a88-83ec-e192c97f29f9,"2020-06-07, 09:14:38 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""subnet-029a939715c4ca949""}]",,ap-east-1,,cloudformation.amazonaws.com
+be5d6e9f-0f1d-4355-92dc-8c97fa1ff22c,"2020-06-07, 09:14:38 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""subnet-06f5166215805b7e0""}]",,ap-east-1,,cloudformation.amazonaws.com
+fe3e094a-e45e-4b1a-b543-4f1561098d8a,"2020-06-07, 09:14:38 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""subnet-06f5166215805b7e0""}]",,ap-east-1,,cloudformation.amazonaws.com
+0a4d2a6b-ee27-47b8-8ea2-0680dd946eed,"2020-06-07, 09:14:34 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""sg-0c629494c9491246f""}]",,ap-east-1,,cloudformation.amazonaws.com
+1efccbaf-723e-4432-b8a4-d1052379c528,"2020-06-07, 09:14:34 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""sg-0c629494c9491246f""}]",,ap-east-1,,cloudformation.amazonaws.com
+b8c95b4e-e3cf-4aac-bb8a-b33f427062af,"2020-06-07, 09:14:34 AM",root,AuthorizeSecurityGroupIngress,EC2 SecurityGroup,"[{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0de6c7ae14ed4d0f3""},{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0c629494c9491246f""}]",,ap-east-1,,cloudformation.amazonaws.com
+a32e83e2-53bb-4613-a12f-703f654dad22,"2020-06-07, 09:14:29 AM",root,CreateSecurityGroup,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""UDARR-Database""},{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0c629494c9491246f""}]",,ap-east-1,,cloudformation.amazonaws.com
+84232b61-e6cc-4209-9bc5-8c44082a9433,"2020-06-07, 09:14:27 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""sg-0de6c7ae14ed4d0f3""}]",,ap-east-1,,cloudformation.amazonaws.com
+a3717ba8-8f52-4c6d-8048-7409e9844423,"2020-06-07, 09:14:27 AM",root,AuthorizeSecurityGroupIngress,EC2 SecurityGroup,"[{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0de6c7ae14ed4d0f3""}]",,ap-east-1,,cloudformation.amazonaws.com
+f6018244-e024-4bd2-ba2f-b2d987450b29,"2020-06-07, 09:14:27 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""sg-0de6c7ae14ed4d0f3""}]",,ap-east-1,,cloudformation.amazonaws.com
+73a9c26a-f2b2-423d-82ab-9775424e7133,"2020-06-07, 09:14:23 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""rtb-004c2641d3ceb7148""}]",,ap-east-1,,cloudformation.amazonaws.com
+8a8b5760-913b-4ace-a491-cf2f2ddd46c9,"2020-06-07, 09:14:23 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""rtb-0a5abfa1d598081e9""}]",,ap-east-1,,cloudformation.amazonaws.com
+a2d7ccef-ef0a-4af5-9497-9b205c90a969,"2020-06-07, 09:14:23 AM",root,CreateSubnet,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06ca4ae291da2b47b""}]",,ap-east-1,,cloudformation.amazonaws.com
+ac66e5cf-ac1f-4491-908b-8272add38af4,"2020-06-07, 09:14:23 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""rtb-0a5abfa1d598081e9""}]",,ap-east-1,,cloudformation.amazonaws.com
+bcbd89d7-f62b-4d26-8e00-7f3124d42d70,"2020-06-07, 09:14:23 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""rtb-004c2641d3ceb7148""}]",,ap-east-1,,cloudformation.amazonaws.com
+d873bf73-57c3-4610-911d-69435f9f8061,"2020-06-07, 09:14:23 AM",root,CreateSecurityGroup,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""sg-0de6c7ae14ed4d0f3""},{""resourceType"":""AWS::EC2::SecurityGroup"",""resourceName"":""UDARR-Application""}]",,ap-east-1,,cloudformation.amazonaws.com
+07fcb460-bbc5-4675-8d2f-578028a4f773,"2020-06-07, 09:14:22 AM",root,AttachInternetGateway,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::InternetGateway"",""resourceName"":""igw-0ddff6f36288ad071""}]",,ap-east-1,,cloudformation.amazonaws.com
+70375cd9-79fe-4b0b-90f4-37b21be5c9de,"2020-06-07, 09:14:22 AM",root,CreateSubnet,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-04cfff0fc6101360a""}]",,ap-east-1,,cloudformation.amazonaws.com
+8897be74-76c3-4bf6-bb3c-b25f1106d0e8,"2020-06-07, 09:14:22 AM",root,CreateRouteTable,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-004c2641d3ceb7148""}]",,ap-east-1,,cloudformation.amazonaws.com
+afefb0b0-4099-475c-8532-bb3a4472c371,"2020-06-07, 09:14:22 AM",root,CreateSubnet,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-029a939715c4ca949""}]",,ap-east-1,,cloudformation.amazonaws.com
+d71351c4-9ac1-436f-949c-01bc7f319d46,"2020-06-07, 09:14:22 AM",root,CreateRouteTable,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::RouteTable"",""resourceName"":""rtb-0a5abfa1d598081e9""}]",,ap-east-1,,cloudformation.amazonaws.com
+dbb2f5dc-b76e-4254-8626-c0c4a8c4ea1a,"2020-06-07, 09:14:22 AM",root,CreateSubnet,EC2 VPC and 1 more,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""},{""resourceType"":""AWS::EC2::Subnet"",""resourceName"":""subnet-06f5166215805b7e0""}]",,ap-east-1,,cloudformation.amazonaws.com
+31f0e035-5a1e-4ad2-8d13-7c4ff84a00db,"2020-06-07, 09:14:20 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""vpc-09850024a03dc0678""}]",,ap-east-1,,cloudformation.amazonaws.com
+691e7eb2-b660-4efd-a7a8-374d2411059b,"2020-06-07, 09:14:20 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""igw-0ddff6f36288ad071""}]",,ap-east-1,,cloudformation.amazonaws.com
+9551bcb9-8db6-4d4c-b0d1-f5af727bbe02,"2020-06-07, 09:14:20 AM",root,ModifyVpcAttribute,EC2 VPC,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""}]",,ap-east-1,,cloudformation.amazonaws.com
+c83fcdb8-86fb-4d34-84c5-5946fca6ca24,"2020-06-07, 09:14:20 AM",root,ModifyVpcAttribute,EC2 VPC,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""}]",,ap-east-1,,cloudformation.amazonaws.com
+d7683cd8-95b3-4502-a76a-76345ddb655e,"2020-06-07, 09:14:20 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""vpc-09850024a03dc0678""}]",,ap-east-1,,cloudformation.amazonaws.com
+e97daa3f-9ef7-4da4-9b73-19cc55b426b1,"2020-06-07, 09:14:20 AM",root,CreateTags,,"[{""resourceType"":null,""resourceName"":""igw-0ddff6f36288ad071""}]",,ap-east-1,,cloudformation.amazonaws.com
+7dd65dd7-d3d7-493d-babb-263606567f78,"2020-06-07, 09:14:04 AM",root,CreateInternetGateway,EC2 InternetGateway,"[{""resourceType"":""AWS::EC2::InternetGateway"",""resourceName"":""igw-0ddff6f36288ad071""}]",,ap-east-1,,cloudformation.amazonaws.com
+aac6bb3c-dc1f-4950-8d65-22b20a5942bf,"2020-06-07, 09:14:04 AM",root,CreateVpc,EC2 VPC,"[{""resourceType"":""AWS::EC2::VPC"",""resourceName"":""vpc-09850024a03dc0678""}]",,ap-east-1,,cloudformation.amazonaws.com
+a6ef0510-5c54-48c1-b62f-ca81ab60c3a2,"2020-06-07, 09:14:01 AM",root,CreateStack,CloudFormation Stack,"[{""resourceType"":""AWS::CloudFormation::Stack"",""resourceName"":""arn:aws:cloudformation:ap-east-1:095580927568:stack/Udacity-Project1-Secondary/2bf1b5a0-a85c-11ea-9390-06d24d11cf92""}]",,ap-east-1,,1.36.60.155
+d1605646-e2f1-4600-9dfc-76d4b89628c3,"2020-06-07, 09:13:05 AM",root,PutBucketEncryption,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""cf-templates-hs65tl5gs3x6-ap-east-1""}]",,ap-east-1,,cloudformation.amazonaws.com
+4b9eca16-b8a2-4dca-b1ab-4259d5bf9354,"2020-06-07, 09:13:04 AM",root,CreateBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""cf-templates-hs65tl5gs3x6-ap-east-1""}]",,ap-east-1,,cloudformation.amazonaws.com
+0cc2d1e1-ea75-4d43-9b70-d0560ab0b4a9,"2020-06-07, 08:39:54 AM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+71a428f5-c70e-4ad9-8895-b744aecde543,"2020-06-07, 08:39:30 AM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+541207d1-271e-4e18-804a-5adcb05e3720,"2020-06-04, 02:18:21 PM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+084519f6-623f-4d39-8936-3db12d4e49e6,"2020-06-01, 08:00:09 AM",root,UpdateAccountPasswordPolicy,,,,us-east-1,,1.36.60.155
+e519e573-a3a3-4644-a4d6-b000aa0d2335,"2020-06-01, 12:13:43 AM",root,ConsoleLogin,,,,us-east-1,,1.36.60.155
+5ab98faa-b424-4380-897b-7b7064f4e979,"2020-05-30, 04:40:37 PM",root,ConsoleLogin,,,,us-east-1,,68.71.244.223
